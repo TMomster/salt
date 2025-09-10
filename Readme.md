@@ -2,7 +2,7 @@
 
 中文使用者参阅 [ReadmeCN.md](ReadmeCN.md) 。
 
-Salt is a lightweight, cross-platform automation tool built with Python. It allows you to record mouse positions and create custom keyboard shortcuts to trigger actions, such as clicking at specific coordinates or remapping one key to another. Designed for efficiency, Salt operates primarily through global hotkeys, enabling you to automate repetitive tasks without interrupting your workflow.
+Salt is a lightweight, automation tool built with Python. It allows you to record mouse positions and create custom keyboard shortcuts to trigger actions, such as clicking at specific coordinates or remapping one key to another. Designed for efficiency, Salt operates primarily through global hotkeys, enabling you to automate repetitive tasks without interrupting your workflow.
 
 **Author:** Momster
 **Version:** v1.2.0-dev+5e0910v2
