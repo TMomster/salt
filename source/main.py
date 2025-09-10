@@ -1262,7 +1262,6 @@ class MouseAgent:
             with open("mouse_agent_data.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             self.status_var.set(self.get_text("save_success"))
-            messagebox.showinfo("Success", self.get_text("save_success"))
         except Exception as e:
             error_msg = self.get_text("save_failed").format(error=str(e))
             messagebox.showerror(self.get_text("error"), error_msg)
